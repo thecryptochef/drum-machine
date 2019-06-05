@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import DrumPad from './components/DrumPad';
 import ControlScreen from './components/ControlScreen';
 
-function App(vol) {
+function App() {
   const [power, setPower] = useState(false);
   const [volume, setVolume] = useState(0.5);
   return (
